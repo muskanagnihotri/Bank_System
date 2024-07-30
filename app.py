@@ -41,7 +41,7 @@ def main():
     bankname=input("Enter Bank Name: ")
     bank = Bank(bankname)
     
-    while True:
+    while True: #we use while loop for not stop until user not want to stop it 
         print(f"\nWelcome to the {bank.bankname}")
         print("1. Create Account")
         print("2. Access Account")
